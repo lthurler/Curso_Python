@@ -4,3 +4,4 @@ ordem de precedência
 3 -> * / // %
 4 -> + -
 
+python -m venv venv
