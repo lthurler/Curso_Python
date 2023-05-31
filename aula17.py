@@ -9,7 +9,7 @@ num.remove(2)
 if 4 in num:
     num.remove(4)
 else:
-    print('Não achei o número 5')
+    print('Não achei o número 4')
     
 print(num)
 print(f'Essa lista tem {len(num)} elementos.')
