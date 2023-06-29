@@ -2,7 +2,6 @@ pessoa = {}
 pessoas = []
 mulheres = []
 media_idade = 0
-idade_acima = []
 contador = 1
 
 while True:
@@ -13,7 +12,7 @@ while True:
     pessoas.append(pessoa.copy())
     media_idade += pessoa['idade']
     
-    if pessoa['sexo'] == 'M':
+    if pessoa['sexo'] == 'F':
         mulheres.append(pessoa.copy())
         
     resposta = str(input("Deseja continuar? (s/n): "))
@@ -36,9 +35,16 @@ print()
 print(f'Foram cadastradas {contador} pessoas')
 media_idade = media_idade / contador
 print(f'A media de idade do grupo é de {media_idade}')
-print(f'mulheres cadastradas: {mulheres}')
 
-if pessoas
-    
+print(f'mulheres cadastradas: ')
+for mulher in mulheres:
+     print(f'{mulher["nome"]}', end=' ')
+     
+print()
 
-4
+for pessoa in pessoas:
+    if pessoa['idade'] > media_idade:
+        print(f'{pessoa["nome"]}', end = ' ')
+print(', possuem idade acima da média')
+
+print()
