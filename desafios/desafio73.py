@@ -1,0 +1,13 @@
+brasileirao = ('América-MG', 'Athetico-PR', 'Atlético-MG', 'Bahia', 'Botafogo', 'Corinthians', 'Coritiba', 'Cruzeiro', 'Cuiabá', 'Flamengo', 'Fluminense', 'Fortaleza', 'Goiás', 'Grêmio', 'Internacional', 'Palmeiras', 'Bragantino', 'Santos', 'São Paulo', 'Vasco da gama')
+
+print('')
+print(f'A lista dos times do brasileirão em suas 20 primeiras posições é: {brasileirao}')
+print('')
+print(f'Os 5 primeiro colocados são: {brasileirao[0:5]}')
+print('')
+print(f'Os 4 ultimos colocados são: {brasileirao[-4:]}')
+print('')
+print(f'Os times em ordem alfabetica são: {sorted(brasileirao)}')
+print('')
+print(f'O {brasileirao[9]} ocupa a posicão {brasileirao.index("Flamengo") + 1} no momento')
+print('')
