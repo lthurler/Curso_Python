@@ -1,0 +1,1 @@
+from utilidadeCev import moeda, dado
